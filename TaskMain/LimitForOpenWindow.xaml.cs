@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,6 +25,20 @@ namespace TaskMain
         private LimitForOpenWindow()
         {
             InitializeComponent();
+
+            // We hang a handler on the event before closing the window. 
+            Closing += new CancelEventHandler(Window_Closing);
+
+            // Restoring the position on the screen.
+            Left = Properties.Settings.Default.WindowPosition.Left;
+            Top = Properties.Settings.Default.WindowPosition.Top;
+
+            // Restoring the size of the window.
+            Width = Properties.Settings.Default.WindowPosition.Width;
+            Height = Properties.Settings.Default.WindowPosition.Height;
+
+            // Restoring the window title.
+            Title = Properties.Settings.Default.Title;
         }
 
         public static LimitForOpenWindow CreateWindow() 
@@ -37,6 +52,13 @@ namespace TaskMain
             {
                 return null;
             }
+        }
+
+        private void Window_Closing(object sender, CancelEventArgs e)
+        {
+            Properties.Settings.Default.WindowPosition = this.RestoreBounds;
+
+            Properties.Settings.Default.Save();
         }
     }
 }

@@ -14,3 +14,4 @@ C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\TaskMain.csproj.Gener
 C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\TaskMain.csproj.CoreCompileInputs.cache
 C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\TaskMain.exe
 C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\TaskMain.pdb
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\TaskMain.csprojAssemblyReference.cache
