@@ -1,0 +1,16 @@
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\bin\Debug\TaskMain.exe.config
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\bin\Debug\TaskMain.exe
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\bin\Debug\TaskMain.pdb
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\LimitForOpenWindow.g.cs
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\MainWindow.g.cs
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\App.g.cs
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\TaskMain_MarkupCompile.cache
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\TaskMain_MarkupCompile.lref
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\LimitForOpenWindow.baml
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\MainWindow.baml
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\TaskMain.g.resources
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\TaskMain.Properties.Resources.resources
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\TaskMain.csproj.GenerateResource.cache
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\TaskMain.csproj.CoreCompileInputs.cache
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\TaskMain.exe
+C:\Users\John\source\repos\WPF_Lesson_7\TaskMain\obj\Debug\TaskMain.pdb
