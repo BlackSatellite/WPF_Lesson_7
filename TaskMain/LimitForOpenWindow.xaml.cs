@@ -56,8 +56,10 @@ namespace TaskMain
 
         private void Window_Closing(object sender, CancelEventArgs e)
         {
+            // RestoreBounds - Returns the size and position of the window before it was minimized or maximized. 
             Properties.Settings.Default.WindowPosition = this.RestoreBounds;
 
+            // Save settings.
             Properties.Settings.Default.Save();
         }
     }
